@@ -1,0 +1,30 @@
+******************************************************************************
+*Tree    :tree      : vft raw data                                           *
+*Entries :    94084 : Total =        78718578 bytes  File  Size =   17479771 *
+*        :          : Tree compression factor =   4.51                       *
+******************************************************************************
+*Br    0 :runnum    : runnum/I                                               *
+*Entries :    94084 : Total  Size=     377761 bytes  File Size  =       2910 *
+*Baskets :       12 : Basket Size=      32000 bytes  Compression= 129.63     *
+*............................................................................*
+*Br    1 :evnum     : evnum/I                                                *
+*Entries :    94084 : Total  Size=     377745 bytes  File Size  =     132289 *
+*Baskets :       12 : Basket Size=      32000 bytes  Compression=   2.85     *
+*............................................................................*
+*Br    2 :vft_layer : vector<short>                                          *
+*Entries :    94084 : Total  Size=    6515125 bytes  File Size  =    1447482 *
+*Baskets :      216 : Basket Size=      32000 bytes  Compression=   4.50     *
+*............................................................................*
+*Br    3 :vft_channel : vector<short>                                        *
+*Entries :    94084 : Total  Size=    6515565 bytes  File Size  =    2574167 *
+*Baskets :      216 : Basket Size=      32000 bytes  Compression=   2.53     *
+*............................................................................*
+*Br    4 :vft_leading : vector<vector<double> >                              *
+*Entries :    94084 : Total  Size=   32443671 bytes  File Size  =    6305282 *
+*Baskets :     1033 : Basket Size=      32000 bytes  Compression=   5.14     *
+*............................................................................*
+*Br    5 :vft_trailing : vector<vector<double> >                             *
+*Entries :    94084 : Total  Size=   32488101 bytes  File Size  =    6994352 *
+*Baskets :     1036 : Basket Size=      32000 bytes  Compression=   4.64     *
+*............................................................................*
+
